@@ -28,7 +28,7 @@ a {
 a:active {
   color: black;
 }
-img {
+.profileimg {
   border-radius: 50px 10px;
   width: 15%;
   border: solid;
@@ -57,7 +57,7 @@ img {
   margin-left: 20%;
   margin-top: 5%;
 }
-img:hover {
+.profileimg:hover {
   box-shadow: 0 0 4px 3px rgb(9, 129, 153);
 }
 h3 {
