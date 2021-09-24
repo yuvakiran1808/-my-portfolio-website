@@ -5,7 +5,6 @@
 body {
   margin: 0;
   background-color: white;
-  /* background-image: url("pics.jpg");   */
   overflow: hidden;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -81,3 +80,4 @@ h2{
  margin-left:35%;
  margin-top: 10%;
 }
+
