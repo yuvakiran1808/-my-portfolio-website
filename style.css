@@ -33,6 +33,11 @@ body {
   margin-top: 10%;
   border-radius: 100%;
   margin-left: auto;
+  border-radius: 50px 10px;
+  border: solid;
+  border-width: 10px;
+  border-color: rgb(224, 221, 223);
+  box-shadow: 0 0 4px 3px rgb(38, 141, 161);
 }
 li {
   float: right;
@@ -106,5 +111,12 @@ h2 {
 @media screen and (max-width: 500px) {
   .disp-image {
     margin-left: 0;
+    height: 180px;
+    width: 180px;
+    object-fit: cover;
+    margin-top: 10%;
+    border-radius: 100%;
+    border: none;
+    /* box-shadow: none; */
   }
 }
