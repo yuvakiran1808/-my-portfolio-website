@@ -2,6 +2,17 @@
   background-color: rgb(38, 141, 161);
   padding: 10px;
 }
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 18px;
+  margin: 0 auto;
+  align-content: center;
+}
+
 body {
   margin: 0;
   background-color: white;
@@ -10,6 +21,23 @@ body {
   background-size: 100%;
   padding: 0;
   border-radius: 10px;
+}
+.body-wrapper {
+  margin: 0 auto;
+  max-width: 900px;
+}
+.disp-image {
+  height: 180px;
+  width: 180px;
+  object-fit: cover;
+  margin-top: 10%;
+  border-radius: 100%;
+  margin-left: auto;
+  border-radius: 50px 10px;
+  border: solid;
+  border-width: 10px;
+  border-color: rgb(224, 221, 223);
+  box-shadow: 0 0 4px 3px rgb(38, 141, 161);
 }
 li {
   float: right;
@@ -40,8 +68,8 @@ a:active {
   box-shadow: 0 0 4px 3px rgb(38, 141, 161);
 }
 .intro {
-  margin-top: 10%;
-  margin-left: 20%;
+  /* margin-top: 10%; */
+  /* margin-left: 20%; */
 }
 .intro p {
   font-size: 20px;
@@ -63,25 +91,32 @@ a:active {
 h3 {
   text-align: center;
 }
-h3 a{
+h3 a {
   color: black;
-  background-color:  skyblue;
+  background-color: skyblue;
   border-radius: 10px;
   text-decoration: wavy;
 }
-h2 a{
+h2 a {
   color: black;
   background-color: goldenrod;
   margin-left: 1%;
   border-radius: 10px;
-
 }
-h2{
- margin-left:35%;
- margin-top: 10%;
+h2 {
+  margin-left: 35%;
+  margin-top: 10%;
 }
 
-
-
-
-
+@media screen and (max-width: 500px) {
+  .disp-image {
+    margin-left: 0;
+    height: 180px;
+    width: 180px;
+    object-fit: cover;
+    margin-top: 10%;
+    border-radius: 100%;
+    border: none;
+    /* box-shadow: none; */
+  }
+}
